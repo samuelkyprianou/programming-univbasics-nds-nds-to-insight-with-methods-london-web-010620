@@ -6,8 +6,11 @@ def directors_totals(nds)
   result = {}
   name_index = 0
   while name_index < nds.length
-  result[nds[name_index][:name]]
+  result[nds[name_index][:name]] = gross_for_director(nds[name_index])
+  name_index += 1
 end
+end
+
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
