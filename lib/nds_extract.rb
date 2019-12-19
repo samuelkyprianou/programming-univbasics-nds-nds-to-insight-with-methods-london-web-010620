@@ -5,7 +5,7 @@ require 'pp'
 def directors_totals(nds)
   result = {}
   name_index = 0
-  while name_index < nds
+  while name_index < nds.length
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
